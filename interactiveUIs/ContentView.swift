@@ -16,7 +16,7 @@ struct ContentView: View {
         VStack {
             Text(textTitle)
                 .font(.title)
-                .fontWeight(.medium)
+                .fontWeight(.semibold)
                 
             TextField("Type Name here...", text: $name)
                 .multilineTextAlignment(.center)
